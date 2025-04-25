@@ -19,3 +19,5 @@ Expected Commits against integrity rules :
 * Create a third commit on the main branch that conflicts with the sub feature branch.
 * Create multiple on the feature branch and then  merge the feature branch with the main branch without PR.
 * Create a commit on feature branch that updates the expected result JSON and use a PR to merge the 2.
+* Create a commit on main to update the Read Me an then create a PR from feature to merge with main for expected results.
+* 
