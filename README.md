@@ -3,10 +3,7 @@ This project is part of a benchmark / test suite used to check the different git
 
 ## Textual Description
 Expected Commits against integrity rules :
-* Initial Commit
-* Commit updating ReadMe
-* Commit Before Merging Feature Branch conflicting with Feature
-* Commit Merging the feature and the main brnach
+* All Commits expect the ones that are done via the PR, i.e. commits updating the expected Result file and commits updating the read me file.
 
 ## Changes Made In This Repo
 
@@ -18,7 +15,9 @@ Expected Commits against integrity rules :
 * Then merge it with the sub-feature branch using a PR. Resolve conflicts
 * Create a third commit on the main branch that conflicts with the sub feature branch.
 * Create multiple on the feature branch and then  merge the feature branch with the main branch without PR.
-* Create a commit on feature branch that updates the expected result JSON and use a PR to merge the 2.
+* Create a commit on feature branch that updates the expected result JSON.
 * Create a commit on main to update the Readme 
 * Create a PR from feature to merge with main for expected results.
+* Create a new branch called readme-fix and update the readme file there.
+* Merge it with main using a PR.
  
